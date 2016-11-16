@@ -4,6 +4,7 @@ import os
 import imp
 import sys
 import pygame
+import gui as game 
 
 pygame.init()
 
@@ -129,12 +130,9 @@ if __name__ == "__main__":
 
 	
 	# define all the suitable functions to run the game
-   	'''funcs = { "Single Player Mod" : game.run,
-		"Two Player Mode": game.run,
-		"LAN Mode": net.run,
-		"CPU Mode": game.cpu_player,
+   	funcs = { "Test Mode" : game.run,
 		"Quit" : sys.exit
-    	}'''
+    	}
 
 	funcs = {}
 
